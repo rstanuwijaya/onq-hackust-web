@@ -94,7 +94,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={require("assets/img/brand/brand-logo.png")}
                         />
                       </Link>
                     </Col>

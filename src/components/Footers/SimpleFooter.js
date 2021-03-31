@@ -40,11 +40,11 @@ class SimpleFooter extends React.Component {
                 <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for supporting us!
                 </h3>
-                <h4 className=" mb-0 font-weight-light">
+                {/* <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
-                </h4>
+                </h4> */}
               </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              {/* <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
@@ -101,7 +101,7 @@ class SimpleFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                   Star on Github
                 </UncontrolledTooltip>
-              </Col>
+              </Col> */}
             </Row>
             <hr />
             <Row className=" align-items-center justify-content-md-between">
@@ -109,27 +109,27 @@ class SimpleFooter extends React.Component {
                 <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://www.ec.ust.hk/hackathon/2021/home/"
                     target="_blank"
                   >
-                    Creative Tim
+                    NullBrainException @ hackUST
                   </a>
                   .
                 </div>
               </Col>
               <Col md="6">
                 <Nav className=" nav-footer justify-content-end">
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
                       Creative Tim
                     </NavLink>
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                      href="https://www.ec.ust.hk/hackathon/2021/home/"
                       target="_blank"
                     >
                       About Us
@@ -137,7 +137,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
+                      href="https://www.ec.ust.hk/hackathon/2021/home/"
                       target="_blank"
                     >
                       Blog
@@ -145,7 +145,7 @@ class SimpleFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md"
+                      href=""
                       target="_blank"
                     >
                       MIT License

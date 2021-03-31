@@ -23,6 +23,7 @@ import { Container, Row } from "reactstrap";
 // core components
 import Navbar from "components/Navbars/Navbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 // index page sections
 import Hero from "./IndexSections/Hero.js";
@@ -58,7 +59,7 @@ class Index extends React.Component {
         <Navbar />
         <main ref="main">
           <Hero />
-          <Buttons />
+          {/* <Buttons />
           <Inputs />
           <section className="section">
             <Container>
@@ -88,9 +89,9 @@ class Index extends React.Component {
           <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
-        <CardsFooter />
+        <SimpleFooter />
       </>
     );
   }

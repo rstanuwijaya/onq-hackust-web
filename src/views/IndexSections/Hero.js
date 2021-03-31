@@ -28,7 +28,7 @@ class Hero extends React.Component {
           {/* Hero for FREE version */}
           <section className="section section-hero section-shaped">
             {/* Background circles */}
-            <div className="shape shape-style-1 shape-default">
+            <div className="shape shape-style-1 shape-primary">
               <span className="span-150" />
               <span className="span-50" />
               <span className="span-50" />
@@ -43,27 +43,30 @@ class Hero extends React.Component {
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  <Col className="text-center" lg="8">
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("assets/img/brand/brand-logo.png")}
-                      style={{ width: "200px" }}
+                      src={require("assets/img/brand/applogo-transparent-circle.png")}
+                      style={{ width: "300px", backgroundColor:"white", padding:"30px", borderRadius:"50px" }}
                     />
-                    <p className="lead text-white">
+                    <p className="heading-title text-white mt-4">
                       Innovating with simplicity
+                    </p>
+                    <p className="lead text-white mt-1">
+                      Powered by AWS EC2 - made with React and React Native
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://play.google.com/"
+                        href="/dashboard"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="ni ni-cloud-download-95" />
+                          <i className="fa fa-desktop" />
                         </span>
-                        <span className="btn-inner--text">Download On Playstore</span>
+                        <span className="btn-inner--text">Go to Dashboard</span>
                       </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
@@ -82,6 +85,11 @@ class Hero extends React.Component {
                       </Button>
                     </div>
                     <div className="mt-5">
+                      <a href="https://www.ec.ust.hk/hackathon/2021/home/" >
+                        <img height="60" alt="" src={require("assets/img/brand/Group_1.png")}></img>
+                      </a>
+                    </div>
+                    <div className="mt-2">
                       <small className="text-white font-weight-bold mb-0 mr-2">
                         *proudly hacked by NullBrainException
                       </small>
