@@ -129,7 +129,8 @@ class SimpleFooter extends React.Component {
                   </NavItem> */}
                   <NavItem>
                     <NavLink
-                      href="/about-us"
+                      href="https://www.ec.ust.hk/hackathon/2021/home/"
+                      target="_blank"
                     >
                       About Us
                     </NavLink>

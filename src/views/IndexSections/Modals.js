@@ -32,7 +32,8 @@ import {
   InputGroup,
   Modal,
   Row,
-  Col
+  Col,
+  UncontrolledCarousel
 } from "reactstrap";
 
 class Modals extends React.Component {

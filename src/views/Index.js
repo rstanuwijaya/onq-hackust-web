@@ -46,6 +46,7 @@ import Carousel from "./IndexSections/Carousel.js";
 import Icons from "./IndexSections/Icons.js";
 import Login from "./IndexSections/Login.js";
 import Download from "./IndexSections/Download.js";
+import Home from "./pages/Home.js"
 
 class Index extends React.Component {
   componentDidMount() {
@@ -58,7 +59,16 @@ class Index extends React.Component {
       <>
         <Navbar />
         <main ref="main">
-          <Hero />
+          {/* <Hero />
+          <section className="section section-components">
+            <Container>
+              <Modals />
+              <Inputs />
+            </Container>
+          </section> */}
+          <Home />
+          {/* <Carousel /> */}
+
           {/* <Buttons />
           <Inputs />
           <section className="section">

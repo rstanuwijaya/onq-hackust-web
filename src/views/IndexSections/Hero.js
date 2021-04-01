@@ -54,7 +54,7 @@ class Hero extends React.Component {
                       Innovating with simplicity
                     </p>
                     <p className="lead text-white mt-1">
-                      Powered by AWS EC2 - made with React and React Native
+                      Powered by AWS EC2 - made with React, React Native, and some love
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
