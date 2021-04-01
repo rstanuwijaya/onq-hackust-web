@@ -140,8 +140,8 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">About Us</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        NBX
+                      <DropdownItem to="/about-us" tag={Link}>
+                        NullBrainException (NBX)
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>

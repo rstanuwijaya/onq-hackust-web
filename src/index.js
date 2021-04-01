@@ -27,6 +27,7 @@ import Index from "views/Index.js";
 import Landing from "views/examples/Landing.js";
 import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
+import AboutUs from "views/pages/AboutUs.js";
 import Register from "views/examples/Register.js";
 
 ReactDOM.render(
@@ -43,6 +44,11 @@ ReactDOM.render(
         path="/profile-page"
         exact
         render={props => <Profile {...props} />}
+      />
+      <Route
+        path="/about-us"
+        exact
+        render={props => <AboutUs {...props} />}
       />
       <Route
         path="/register-page"
