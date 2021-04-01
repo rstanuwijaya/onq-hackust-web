@@ -122,9 +122,10 @@ class Profile extends React.Component {
                 role="Creative Designer, Fullstack Web Developer"
                 education="B.Sc in Physics IRE and Computer Science, HKUST"
                 quote="
-                    An student who loves to seek challanges and solve them,
-                    a passionate physichist, and a hobbyist developer. 
-                    Think like a scientist, work like an engineer
+                    Curious student who loves to seek challanges and solve them,
+                    a passionate physicist, and a hobbyist developer.
+                    Loves cooking and watching movies.
+                    Think like a scientist, work like an engineer.
                 "
                 cardStyle="mt--300"
             />
